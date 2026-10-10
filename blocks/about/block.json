@@ -1,0 +1,148 @@
+{
+  "apiVersion": 2,
+  "name": "dr-ruan/about",
+  "title": "Dr. Ruan: About",
+  "category": "dr-ruan",
+  "icon": "admin-users",
+  "description": "Bio, pull quote, and credentials row.",
+  "attributes": {
+    "tagZh": {
+      "type": "string",
+      "default": "关于阮医师"
+    },
+    "tagEn": {
+      "type": "string",
+      "default": "About Dr. Ruan"
+    },
+    "tagEs": {
+      "type": "string",
+      "default": "Sobre el Dr. Ruan"
+    },
+    "tagVi": {
+      "type": "string",
+      "default": "Giới thiệu về Bác sĩ Ruan"
+    },
+    "headingZh": {
+      "type": "string",
+      "default": "三十多年药柜与临床的积累"
+    },
+    "headingEn": {
+      "type": "string",
+      "default": "Thirty years at the pharmacy bench and the bedside"
+    },
+    "headingEs": {
+      "type": "string",
+      "default": "Treinta años entre el mostrador de la farmacia y la consulta"
+    },
+    "headingVi": {
+      "type": "string",
+      "default": "Ba mươi năm gắn bó với quầy thuốc và giường bệnh"
+    },
+    "bodyZh": {
+      "type": "string",
+      "default": "阮斌医师持有中国中医执业医师资格及中医内科中级职称，临床经验逾三十年，涵盖内科、儿科、妇科、男科及皮肤科，每帖药方均依个人体质量身调配，从不套用成方。"
+    },
+    "bodyEn": {
+      "type": "string",
+      "default": "Dr. Ruan Bin (阮斌) holds a licensed Chinese medicine practitioner credential and an intermediate professional title in internal medicine from China, with over three decades of clinical practice across internal medicine, pediatrics, gynecology, men's health, and dermatology. Every formula is compounded to the person in front of him — never off the shelf."
+    },
+    "bodyEs": {
+      "type": "string",
+      "default": "El Dr. Ruan Bin (阮斌) posee una licencia de médico de medicina china y un título profesional intermedio en medicina interna china, con más de tres décadas de práctica clínica en medicina interna, pediatría, ginecología, salud masculina y dermatología. Cada fórmula se prepara para la persona que tiene enfrente, nunca de manera genérica."
+    },
+    "bodyVi": {
+      "type": "string",
+      "default": "Bác sĩ Ruan Bin (阮斌) có chứng chỉ hành nghề y học cổ truyền Trung Quốc và chức danh chuyên môn trung cấp về nội khoa Đông y, với hơn ba thập kỷ kinh nghiệm lâm sàng về nội khoa, nhi khoa, phụ khoa, nam khoa và da liễu. Mỗi bài thuốc đều được điều chế riêng cho từng bệnh nhân — không bao giờ dùng công thức có sẵn."
+    },
+    "quoteZh": {
+      "type": "string",
+      "default": "「治病必求于本。」"
+    },
+    "quoteEn": {
+      "type": "string",
+      "default": "\"To treat illness, always seek the root.\""
+    },
+    "quoteEs": {
+      "type": "string",
+      "default": "\"Para tratar la enfermedad, siempre hay que buscar la raíz.\""
+    },
+    "quoteVi": {
+      "type": "string",
+      "default": "\"Chữa bệnh phải tìm đến tận gốc.\""
+    },
+    "cred1Value": {
+      "type": "string",
+      "default": "30+"
+    },
+    "cred1LabelZh": {
+      "type": "string",
+      "default": "年临床经验"
+    },
+    "cred1LabelEn": {
+      "type": "string",
+      "default": "Years of clinical experience"
+    },
+    "cred1LabelEs": {
+      "type": "string",
+      "default": "Años de experiencia clínica"
+    },
+    "cred1LabelVi": {
+      "type": "string",
+      "default": "Năm kinh nghiệm lâm sàng"
+    },
+    "cred2Value": {
+      "type": "string",
+      "default": "5"
+    },
+    "cred2LabelZh": {
+      "type": "string",
+      "default": "专科项目"
+    },
+    "cred2LabelEn": {
+      "type": "string",
+      "default": "Specialty areas"
+    },
+    "cred2LabelEs": {
+      "type": "string",
+      "default": "Áreas de especialidad"
+    },
+    "cred2LabelVi": {
+      "type": "string",
+      "default": "Lĩnh vực chuyên môn"
+    },
+    "cred3ValueZh": {
+      "type": "string",
+      "default": "持照"
+    },
+    "cred3ValueEn": {
+      "type": "string",
+      "default": "Licensed"
+    },
+    "cred3ValueEs": {
+      "type": "string",
+      "default": "Licenciado"
+    },
+    "cred3ValueVi": {
+      "type": "string",
+      "default": "Có giấy phép"
+    },
+    "cred3LabelZh": {
+      "type": "string",
+      "default": "中国执业医师"
+    },
+    "cred3LabelEn": {
+      "type": "string",
+      "default": "TCM Practitioner, China"
+    },
+    "cred3LabelEs": {
+      "type": "string",
+      "default": "Médico de Medicina China, China"
+    },
+    "cred3LabelVi": {
+      "type": "string",
+      "default": "Bác sĩ Đông y, Trung Quốc"
+    }
+  },
+  "editorScript": "file:./edit.js",
+  "render": "file:./render.php"
+}

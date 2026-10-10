@@ -1,0 +1,204 @@
+{
+  "apiVersion": 2,
+  "name": "dr-ruan/contact",
+  "title": "Dr. Ruan: Contact",
+  "category": "dr-ruan",
+  "icon": "phone",
+  "description": "Contact info list plus the booking card.",
+  "attributes": {
+    "tagZh": {
+      "type": "string",
+      "default": "诊所资讯"
+    },
+    "tagEn": {
+      "type": "string",
+      "default": "Visit the Practice"
+    },
+    "tagEs": {
+      "type": "string",
+      "default": "Visite la Clínica"
+    },
+    "tagVi": {
+      "type": "string",
+      "default": "Đến thăm phòng khám"
+    },
+    "headingZh": {
+      "type": "string",
+      "default": "联络我们"
+    },
+    "headingEn": {
+      "type": "string",
+      "default": "Get in touch"
+    },
+    "headingEs": {
+      "type": "string",
+      "default": "Póngase en Contacto"
+    },
+    "headingVi": {
+      "type": "string",
+      "default": "Liên hệ với chúng tôi"
+    },
+    "subZh": {
+      "type": "string",
+      "default": "欢迎透过平台预约看诊，初诊时间约30分钟。"
+    },
+    "subEn": {
+      "type": "string",
+      "default": "Book through our online platform to schedule your first consultation. New patient visits typically run about 30 minutes."
+    },
+    "subEs": {
+      "type": "string",
+      "default": "Reserve a través de nuestra plataforma en línea para programar su primera consulta. Las visitas de nuevos pacientes suelen durar unos 30 minutos."
+    },
+    "subVi": {
+      "type": "string",
+      "default": "Đặt lịch hẹn khám đầu tiên qua nền tảng trực tuyến của chúng tôi. Buổi khám đầu tiên thường kéo dài khoảng 30 phút."
+    },
+    "items": {
+      "type": "array",
+      "default": [
+        {
+          "labelZh": "电话",
+          "labelEn": "Phone",
+          "value": "626.492.2148",
+          "labelEs": "Teléfono",
+          "labelVi": "Điện thoại",
+          "url": ""
+        },
+        {
+          "labelZh": "地址",
+          "labelEn": "Address",
+          "value": "151 E. Garvey Ave. Monterey Park, CA 91755（绿树森林中药店内，丁胖子广场一口福餐厅旁）",
+          "labelEs": "Dirección",
+          "labelVi": "Địa chỉ",
+          "url": ""
+        },
+        {
+          "labelZh": "看诊时间",
+          "labelEn": "Hours",
+          "value": "周一至周六 上午9:30 – 下午5:00（周日休息）",
+          "labelEs": "Horario",
+          "labelVi": "Giờ làm việc",
+          "url": ""
+        },
+        {
+          "labelZh": "交通",
+          "labelEn": "Getting there",
+          "value": "林肯街站（Lincoln Ave）：68、70、71、106、770 路班车",
+          "labelEs": "Cómo llegar",
+          "labelVi": "Cách di chuyển",
+          "url": ""
+        },
+        {
+          "labelZh": "微信",
+          "labelEn": "WeChat",
+          "labelEs": "WeChat",
+          "labelVi": "WeChat",
+          "value": "DrRuanTCM（请扫码或搜索添加）",
+          "url": ""
+        },
+        {
+          "labelZh": "脸书",
+          "labelEn": "Facebook",
+          "labelEs": "Facebook",
+          "labelVi": "Facebook",
+          "value": "facebook.com/DrRuanTCM",
+          "url": "#"
+        }
+      ],
+      "items": {
+        "type": "object",
+        "properties": {
+          "labelZh": {
+            "type": "string"
+          },
+          "labelEn": {
+            "type": "string"
+          },
+          "labelEs": {
+            "type": "string"
+          },
+          "labelVi": {
+            "type": "string"
+          },
+          "value": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "cardHeadingZh": {
+      "type": "string",
+      "default": "预约看诊"
+    },
+    "cardHeadingEn": {
+      "type": "string",
+      "default": "Request an Appointment"
+    },
+    "cardHeadingEs": {
+      "type": "string",
+      "default": "Solicitar una Cita"
+    },
+    "cardHeadingVi": {
+      "type": "string",
+      "default": "Yêu cầu đặt lịch hẹn"
+    },
+    "cardBodyZh": {
+      "type": "string",
+      "default": "请透过预约平台，说明您的状况，我们将协助安排看诊时间。"
+    },
+    "cardBodyEn": {
+      "type": "string",
+      "default": "Book through our online platform and briefly describe what brings you in — we'll help find a time."
+    },
+    "cardBodyEs": {
+      "type": "string",
+      "default": "Reserve a través de nuestra plataforma en línea y describa brevemente su situación; le ayudaremos a encontrar un horario."
+    },
+    "cardBodyVi": {
+      "type": "string",
+      "default": "Đặt lịch qua nền tảng trực tuyến và mô tả ngắn gọn tình trạng của bạn — chúng tôi sẽ giúp sắp xếp thời gian phù hợp."
+    },
+    "cardButtonTextZh": {
+      "type": "string",
+      "default": "平台预约"
+    },
+    "cardButtonTextEn": {
+      "type": "string",
+      "default": "Book via Platform"
+    },
+    "cardButtonTextEs": {
+      "type": "string",
+      "default": "Reservar en la Plataforma"
+    },
+    "cardButtonTextVi": {
+      "type": "string",
+      "default": "Đặt lịch qua nền tảng"
+    },
+    "cardButtonUrl": {
+      "type": "string",
+      "default": "https://book.ruantcm.com"
+    },
+    "cardNoteZh": {
+      "type": "string",
+      "default": "周一至周六 9:30am–5:00pm，周日休息"
+    },
+    "cardNoteEn": {
+      "type": "string",
+      "default": "Mon–Sat 9:30am–5:00pm, closed Sunday"
+    },
+    "cardNoteEs": {
+      "type": "string",
+      "default": "Lun–Sáb 9:30am–5:00pm, cerrado los domingos"
+    },
+    "cardNoteVi": {
+      "type": "string",
+      "default": "Thứ Hai–Thứ Bảy 9:30 sáng–5:00 chiều, nghỉ Chủ Nhật"
+    }
+  },
+  "editorScript": "file:./edit.js",
+  "render": "file:./render.php"
+}

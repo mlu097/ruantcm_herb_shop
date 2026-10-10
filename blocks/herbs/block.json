@@ -1,0 +1,147 @@
+{
+  "apiVersion": 2,
+  "name": "dr-ruan/herbs",
+  "title": "Dr. Ruan: Featured Herbs",
+  "category": "dr-ruan",
+  "icon": "images-alt2",
+  "description": "The featured herbs row with uploadable photos.",
+  "attributes": {
+    "tagZh": {
+      "type": "string",
+      "default": "本草精选"
+    },
+    "tagEn": {
+      "type": "string",
+      "default": "Featured Herbs"
+    },
+    "tagEs": {
+      "type": "string",
+      "default": "Hierbas Destacadas"
+    },
+    "tagVi": {
+      "type": "string",
+      "default": "Thảo dược tiêu biểu"
+    },
+    "headingZh": {
+      "type": "string",
+      "default": "道地药材，精选入方"
+    },
+    "headingEn": {
+      "type": "string",
+      "default": "Authentic ingredients, thoughtfully sourced"
+    },
+    "headingEs": {
+      "type": "string",
+      "default": "Ingredientes auténticos, cuidadosamente seleccionados"
+    },
+    "headingVi": {
+      "type": "string",
+      "default": "Nguyên liệu chính hiệu, được tuyển chọn kỹ lưỡng"
+    },
+    "items": {
+      "type": "array",
+      "default": [
+        {
+          "nameZh": "人参",
+          "nameEn": "Ginseng",
+          "subZh": "补气固本",
+          "subEn": "Tonifies qi",
+          "image": "",
+          "nameEs": "Ginseng",
+          "nameVi": "Nhân sâm",
+          "subEs": "Tonifica el qi",
+          "subVi": "Bổ khí"
+        },
+        {
+          "nameZh": "枸杞",
+          "nameEn": "Goji Berry",
+          "subZh": "养肝明目",
+          "subEn": "Nourishes the liver",
+          "image": "",
+          "nameEs": "Bayas de Goji",
+          "nameVi": "Câu kỷ tử",
+          "subEs": "Nutre el hígado",
+          "subVi": "Dưỡng gan"
+        },
+        {
+          "nameZh": "黄芪",
+          "nameEn": "Astragalus",
+          "subZh": "益气健脾",
+          "subEn": "Strengthens qi",
+          "image": "",
+          "nameEs": "Astrágalo",
+          "nameVi": "Hoàng kỳ",
+          "subEs": "Fortalece el qi",
+          "subVi": "Tăng cường khí"
+        },
+        {
+          "nameZh": "当归",
+          "nameEn": "Angelica Root",
+          "subZh": "补血调经",
+          "subEn": "Nourishes blood",
+          "image": "",
+          "nameEs": "Raíz de Angélica",
+          "nameVi": "Đương quy",
+          "subEs": "Nutre la sangre",
+          "subVi": "Bổ huyết"
+        },
+        {
+          "nameZh": "陈皮",
+          "nameEn": "Tangerine Peel",
+          "subZh": "理气健胃",
+          "subEn": "Regulates digestion",
+          "image": "",
+          "nameEs": "Cáscara de Mandarina",
+          "nameVi": "Trần bì",
+          "subEs": "Regula la digestión",
+          "subVi": "Điều hòa tiêu hóa"
+        },
+        {
+          "nameZh": "甘草",
+          "nameEn": "Licorice Root",
+          "subZh": "调和诸药",
+          "subEn": "Harmonizes formulas",
+          "image": "",
+          "nameEs": "Raíz de Regaliz",
+          "nameVi": "Cam thảo",
+          "subEs": "Armoniza las fórmulas",
+          "subVi": "Điều hòa các vị thuốc"
+        }
+      ],
+      "items": {
+        "type": "object",
+        "properties": {
+          "image": {
+            "type": "string"
+          },
+          "nameZh": {
+            "type": "string"
+          },
+          "nameEn": {
+            "type": "string"
+          },
+          "nameEs": {
+            "type": "string"
+          },
+          "nameVi": {
+            "type": "string"
+          },
+          "subZh": {
+            "type": "string"
+          },
+          "subEn": {
+            "type": "string"
+          },
+          "subEs": {
+            "type": "string"
+          },
+          "subVi": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "editorScript": "file:./edit.js",
+  "render": "file:./render.php"
+}

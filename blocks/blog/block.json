@@ -1,0 +1,96 @@
+{
+  "apiVersion": 2,
+  "name": "dr-ruan/blog",
+  "title": "Dr. Ruan: Blog",
+  "category": "dr-ruan",
+  "icon": "welcome-write-blog",
+  "description": "Shows your most recent WordPress posts as article cards. Write and manage the posts themselves from Posts > Add New - this block just displays them.",
+  "attributes": {
+    "tagZh": {
+      "type": "string",
+      "default": "学习园地"
+    },
+    "tagEn": {
+      "type": "string",
+      "default": "Blog"
+    },
+    "tagEs": {
+      "type": "string",
+      "default": "Blog"
+    },
+    "tagVi": {
+      "type": "string",
+      "default": "Blog"
+    },
+    "headingZh": {
+      "type": "string",
+      "default": "养生知识，与您分享"
+    },
+    "headingEn": {
+      "type": "string",
+      "default": "Wellness insights, shared with you"
+    },
+    "headingEs": {
+      "type": "string",
+      "default": "Conocimientos de bienestar, compartidos con usted"
+    },
+    "headingVi": {
+      "type": "string",
+      "default": "Kiến thức chăm sóc sức khỏe, chia sẻ cùng bạn"
+    },
+    "subZh": {
+      "type": "string",
+      "default": "从日常调养到常见迷思，阮医师定期分享中医知识与临床心得。"
+    },
+    "subEn": {
+      "type": "string",
+      "default": "From everyday care to common misconceptions, Dr. Ruan shares TCM knowledge and clinical insights regularly."
+    },
+    "subEs": {
+      "type": "string",
+      "default": "Desde el cuidado diario hasta los mitos más comunes, el Dr. Ruan comparte regularmente conocimientos y experiencia clínica de medicina china."
+    },
+    "subVi": {
+      "type": "string",
+      "default": "Từ chăm sóc hằng ngày đến những hiểu lầm phổ biến, bác sĩ Ruan thường xuyên chia sẻ kiến thức Đông y và kinh nghiệm lâm sàng."
+    },
+    "postCount": {
+      "type": "number",
+      "default": 3
+    },
+    "readMoreZh": {
+      "type": "string",
+      "default": "阅读更多 →"
+    },
+    "readMoreEn": {
+      "type": "string",
+      "default": "Read more →"
+    },
+    "readMoreEs": {
+      "type": "string",
+      "default": "Leer más →"
+    },
+    "readMoreVi": {
+      "type": "string",
+      "default": "Đọc thêm →"
+    },
+    "viewAllZh": {
+      "type": "string",
+      "default": "查看所有文章"
+    },
+    "viewAllEn": {
+      "type": "string",
+      "default": "View all articles"
+    },
+    "viewAllEs": {
+      "type": "string",
+      "default": "Ver todos los artículos"
+    },
+    "viewAllVi": {
+      "type": "string",
+      "default": "Xem tất cả bài viết"
+    }
+  },
+  "editorScript": "file:./edit.js",
+  "render": "file:./render.php"
+}

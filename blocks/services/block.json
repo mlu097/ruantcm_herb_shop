@@ -1,0 +1,144 @@
+{
+  "apiVersion": 2,
+  "name": "dr-ruan/services",
+  "title": "Dr. Ruan: Specialties",
+  "category": "dr-ruan",
+  "icon": "list-view",
+  "description": "The five specialty cards.",
+  "attributes": {
+    "tagZh": {
+      "type": "string",
+      "default": "专业项目"
+    },
+    "tagEn": {
+      "type": "string",
+      "default": "Specialties"
+    },
+    "tagEs": {
+      "type": "string",
+      "default": "Especialidades"
+    },
+    "tagVi": {
+      "type": "string",
+      "default": "Chuyên khoa"
+    },
+    "headingZh": {
+      "type": "string",
+      "default": "五大专科，同一治本理念"
+    },
+    "headingEn": {
+      "type": "string",
+      "default": "Five specialties, one root-cause approach"
+    },
+    "headingEs": {
+      "type": "string",
+      "default": "Cinco especialidades, un mismo enfoque de raíz"
+    },
+    "headingVi": {
+      "type": "string",
+      "default": "Năm chuyên khoa, một triết lý trị tận gốc"
+    },
+    "subZh": {
+      "type": "string",
+      "default": "每次看诊皆从脉诊与舌诊开始，药方依您当下的身体状态调配，而非套用固定疗程。"
+    },
+    "subEn": {
+      "type": "string",
+      "default": "Each visit begins with pulse and tongue diagnosis, so the herbs prescribed reflect your body's current state — not a fixed protocol."
+    },
+    "subEs": {
+      "type": "string",
+      "default": "Cada consulta comienza con un diagnóstico de pulso y lengua, para que las hierbas recetadas reflejen el estado actual de su cuerpo, no un protocolo fijo."
+    },
+    "subVi": {
+      "type": "string",
+      "default": "Mỗi lần khám đều bắt đầu bằng việc bắt mạch và xem lưỡi, để các vị thuốc được kê phản ánh đúng tình trạng cơ thể hiện tại của bạn — không theo một phác đồ cố định."
+    },
+    "items": {
+      "type": "array",
+      "default": [
+        {
+          "titleZh": "内科",
+          "titleEn": "Internal Medicine",
+          "bodyZh": "肠胃、呼吸道及慢性病调理。",
+          "bodyEn": "Digestive, respiratory, and chronic conditions treated at the root.",
+          "titleEs": "Medicina Interna",
+          "titleVi": "Nội khoa",
+          "bodyEs": "Afecciones digestivas, respiratorias y crónicas tratadas desde la raíz.",
+          "bodyVi": "Điều trị tận gốc các vấn đề tiêu hóa, hô hấp và bệnh mãn tính."
+        },
+        {
+          "titleZh": "儿科",
+          "titleEn": "Pediatrics",
+          "bodyZh": "温和调理儿童体质、肠胃与发育。",
+          "bodyEn": "Gentle formulas for children's immunity, digestion, and growth.",
+          "titleEs": "Pediatría",
+          "titleVi": "Nhi khoa",
+          "bodyEs": "Fórmulas suaves para fortalecer la inmunidad, la digestión y el crecimiento infantil.",
+          "bodyVi": "Bài thuốc dịu nhẹ giúp tăng cường miễn dịch, tiêu hóa và sự phát triển của trẻ."
+        },
+        {
+          "titleZh": "妇科",
+          "titleEn": "Gynecology",
+          "bodyZh": "调理月经、备孕及更年期。",
+          "bodyEn": "Menstrual health, fertility support, and menopause transitions.",
+          "titleEs": "Ginecología",
+          "titleVi": "Phụ khoa",
+          "bodyEs": "Salud menstrual, apoyo a la fertilidad y transición de la menopausia.",
+          "bodyVi": "Sức khỏe kinh nguyệt, hỗ trợ khả năng sinh sản và giai đoạn mãn kinh."
+        },
+        {
+          "titleZh": "男科",
+          "titleEn": "Men's Health",
+          "bodyZh": "调理体虚、压力相关症状及生殖健康。",
+          "bodyEn": "Vitality, stress-related conditions, and reproductive health.",
+          "titleEs": "Salud Masculina",
+          "titleVi": "Nam khoa",
+          "bodyEs": "Vitalidad, afecciones relacionadas con el estrés y salud reproductiva.",
+          "bodyVi": "Sinh lực, các vấn đề liên quan đến căng thẳng và sức khỏe sinh sản."
+        },
+        {
+          "titleZh": "皮肤科",
+          "titleEn": "Dermatology",
+          "bodyZh": "湿疹、痤疮及发炎性皮肤问题内调。",
+          "bodyEn": "Eczema, acne, and inflammatory skin conditions treated from within.",
+          "titleEs": "Dermatología",
+          "titleVi": "Da liễu",
+          "bodyEs": "Eccema, acné y afecciones cutáneas inflamatorias tratadas desde el interior.",
+          "bodyVi": "Điều trị chàm, mụn trứng cá và các bệnh viêm da từ bên trong cơ thể."
+        }
+      ],
+      "items": {
+        "type": "object",
+        "properties": {
+          "titleZh": {
+            "type": "string"
+          },
+          "titleEn": {
+            "type": "string"
+          },
+          "titleEs": {
+            "type": "string"
+          },
+          "titleVi": {
+            "type": "string"
+          },
+          "bodyZh": {
+            "type": "string"
+          },
+          "bodyEn": {
+            "type": "string"
+          },
+          "bodyEs": {
+            "type": "string"
+          },
+          "bodyVi": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "editorScript": "file:./edit.js",
+  "render": "file:./render.php"
+}

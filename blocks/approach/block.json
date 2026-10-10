@@ -1,0 +1,130 @@
+{
+  "apiVersion": 2,
+  "name": "dr-ruan/approach",
+  "title": "Dr. Ruan: Philosophy",
+  "category": "dr-ruan",
+  "icon": "lightbulb",
+  "description": "The three philosophy tenets.",
+  "attributes": {
+    "tagZh": {
+      "type": "string",
+      "default": "理念"
+    },
+    "tagEn": {
+      "type": "string",
+      "default": "Philosophy"
+    },
+    "tagEs": {
+      "type": "string",
+      "default": "Filosofía"
+    },
+    "tagVi": {
+      "type": "string",
+      "default": "Triết lý"
+    },
+    "headingZh": {
+      "type": "string",
+      "default": "三大理念，贯穿每一帖药方"
+    },
+    "headingEn": {
+      "type": "string",
+      "default": "Three principles guide every formula"
+    },
+    "headingEs": {
+      "type": "string",
+      "default": "Tres principios guían cada fórmula"
+    },
+    "headingVi": {
+      "type": "string",
+      "default": "Ba nguyên tắc trong mỗi bài thuốc"
+    },
+    "subZh": {
+      "type": "string",
+      "default": "上乘的中医药，安静、精准且贴近个人。"
+    },
+    "subEn": {
+      "type": "string",
+      "default": "Herbal medicine at its best is quiet, precise, and personal."
+    },
+    "subEs": {
+      "type": "string",
+      "default": "La mejor medicina herbal es silenciosa, precisa y personal."
+    },
+    "subVi": {
+      "type": "string",
+      "default": "Đông y ở mức tốt nhất là nhẹ nhàng, chính xác và mang tính cá nhân."
+    },
+    "items": {
+      "type": "array",
+      "default": [
+        {
+          "glyph": "根",
+          "titleZh": "治本，非治标",
+          "titleEn": "Root, not symptom",
+          "bodyZh": "治根本，而非治表象，让疗效持久。",
+          "bodyEn": "We treat the underlying imbalance so relief lasts beyond the formula.",
+          "titleEs": "La raíz, no el síntoma",
+          "titleVi": "Trị gốc, không chỉ trị ngọn",
+          "bodyEs": "Tratamos el desequilibrio subyacente para que el alivio dure más allá de la fórmula.",
+          "bodyVi": "Chúng tôi điều trị sự mất cân bằng gốc rễ để hiệu quả kéo dài lâu hơn liệu trình."
+        },
+        {
+          "glyph": "衡",
+          "titleZh": "调和，非强制",
+          "titleEn": "Balance over force",
+          "bodyZh": "顺应身体节律，而非强行干预。",
+          "bodyEn": "Formulas work with the body's own rhythms rather than overriding them.",
+          "titleEs": "Equilibrio, no imposición",
+          "titleVi": "Điều hòa, không ép buộc",
+          "bodyEs": "Las fórmulas trabajan con los ritmos naturales del cuerpo en lugar de forzarlos.",
+          "bodyVi": "Bài thuốc thuận theo nhịp điệu tự nhiên của cơ thể thay vì áp đặt lên nó."
+        },
+        {
+          "glyph": "养",
+          "titleZh": "滋养，非仅治疗",
+          "titleEn": "Nourish, not just treat",
+          "bodyZh": "每次看诊皆提供饮食与生活调养建议。",
+          "bodyEn": "Every visit includes guidance on diet and lifestyle alongside the herbs.",
+          "titleEs": "Nutrir, no solo tratar",
+          "titleVi": "Bồi bổ, không chỉ điều trị",
+          "bodyEs": "Cada consulta incluye orientación sobre dieta y estilo de vida, además de las hierbas.",
+          "bodyVi": "Mỗi lần khám đều kèm theo lời khuyên về ăn uống và sinh hoạt bên cạnh thuốc thang."
+        }
+      ],
+      "items": {
+        "type": "object",
+        "properties": {
+          "glyph": {
+            "type": "string"
+          },
+          "titleZh": {
+            "type": "string"
+          },
+          "titleEn": {
+            "type": "string"
+          },
+          "titleEs": {
+            "type": "string"
+          },
+          "titleVi": {
+            "type": "string"
+          },
+          "bodyZh": {
+            "type": "string"
+          },
+          "bodyEn": {
+            "type": "string"
+          },
+          "bodyEs": {
+            "type": "string"
+          },
+          "bodyVi": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "editorScript": "file:./edit.js",
+  "render": "file:./render.php"
+}

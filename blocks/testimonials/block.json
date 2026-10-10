@@ -1,0 +1,211 @@
+{
+  "apiVersion": 2,
+  "name": "dr-ruan/testimonials",
+  "title": "Dr. Ruan: Testimonials",
+  "category": "dr-ruan",
+  "icon": "format-quote",
+  "description": "Patient testimonials carousel.",
+  "attributes": {
+    "tagZh": {
+      "type": "string",
+      "default": "病患心得"
+    },
+    "tagEn": {
+      "type": "string",
+      "default": "Testimonials"
+    },
+    "tagEs": {
+      "type": "string",
+      "default": "Testimonios"
+    },
+    "tagVi": {
+      "type": "string",
+      "default": "Cảm nhận bệnh nhân"
+    },
+    "headingZh": {
+      "type": "string",
+      "default": "来自病患的真实回馈"
+    },
+    "headingEn": {
+      "type": "string",
+      "default": "What our patients say"
+    },
+    "headingEs": {
+      "type": "string",
+      "default": "Lo que dicen nuestros pacientes"
+    },
+    "headingVi": {
+      "type": "string",
+      "default": "Bệnh nhân nói gì"
+    },
+    "subZh": {
+      "type": "string",
+      "default": "十位病患，十种不同的困扰，同样找回了健康与平衡。"
+    },
+    "subEn": {
+      "type": "string",
+      "default": "Ten patients, ten different concerns — all found their way back to balance."
+    },
+    "subEs": {
+      "type": "string",
+      "default": "Diez pacientes, diez inquietudes distintas, todos encontraron el camino de vuelta al equilibrio."
+    },
+    "subVi": {
+      "type": "string",
+      "default": "Mười bệnh nhân, mười vấn đề khác nhau — tất cả đều tìm lại được sự cân bằng."
+    },
+    "backgroundImage": {
+      "type": "string",
+      "default": ""
+    },
+    "items": {
+      "type": "array",
+      "default": [
+        {
+          "issueZh": "妇科．月经不顺",
+          "issueEn": "Gynecology · Irregular Cycle",
+          "quoteZh": "阮医师的药方让我多年不规律的月经终于稳定下来，整个人也更有精神。",
+          "quoteEn": "Dr. Ruan's formula finally stabilized my irregular cycle after years of struggle — I have so much more energy now.",
+          "name": "陈女士 / Mrs. Chen",
+          "issueEs": "Ginecología · Ciclo Irregular",
+          "issueVi": "Phụ khoa · Kinh nguyệt không đều",
+          "quoteEs": "La fórmula del Dr. Ruan finalmente estabilizó mi ciclo irregular después de años de lucha; ahora tengo mucha más energía.",
+          "quoteVi": "Bài thuốc của bác sĩ Ruan cuối cùng đã giúp ổn định chu kỳ kinh nguyệt không đều của tôi sau nhiều năm — giờ tôi có nhiều năng lượng hơn hẳn."
+        },
+        {
+          "issueZh": "儿科．反复感冒",
+          "issueEn": "Pediatrics · Recurring Colds",
+          "quoteZh": "我儿子以前一个月感冒两三次，吃了阮医师开的药后，整个冬天都没再生病。",
+          "quoteEn": "My son used to catch colds two or three times a month. After Dr. Ruan's herbs, he stayed healthy all winter.",
+          "name": "林太太 / Mrs. Lin",
+          "issueEs": "Pediatría · Resfriados Recurrentes",
+          "issueVi": "Nhi khoa · Cảm lạnh tái phát",
+          "quoteEs": "Mi hijo solía resfriarse dos o tres veces al mes. Después de las hierbas del Dr. Ruan, se mantuvo sano todo el invierno.",
+          "quoteVi": "Con trai tôi trước đây hay bị cảm hai ba lần một tháng. Sau khi dùng thuốc của bác sĩ Ruan, cháu khỏe mạnh suốt cả mùa đông."
+        },
+        {
+          "issueZh": "妇科．更年期潮热",
+          "issueEn": "Gynecology · Menopause Hot Flashes",
+          "quoteZh": "更年期的潮热跟失眠困扰我一年多，调理三个月后症状明显改善。",
+          "quoteEn": "Hot flashes and insomnia from menopause bothered me for over a year. After three months of treatment, my symptoms improved significantly.",
+          "name": "黄女士 / Ms. Huang",
+          "issueEs": "Ginecología · Sofocos de la Menopausia",
+          "issueVi": "Phụ khoa · Bốc hỏa thời kỳ mãn kinh",
+          "quoteEs": "Los sofocos y el insomnio de la menopausia me molestaron por más de un año. Después de tres meses de tratamiento, mis síntomas mejoraron notablemente.",
+          "quoteVi": "Bốc hỏa và mất ngủ thời kỳ mãn kinh làm tôi khổ sở hơn một năm. Sau ba tháng điều trị, triệu chứng đã cải thiện rõ rệt."
+        },
+        {
+          "issueZh": "内科．肠胃胀气",
+          "issueEn": "Internal Medicine · Bloating",
+          "quoteZh": "长期肠胃胀气、消化不良，吃西药都没用，阮医师的方子调理后舒服很多。",
+          "quoteEn": "I had chronic bloating and poor digestion that Western medicine couldn't fix. Dr. Ruan's formula made a real difference.",
+          "name": "王先生 / Mr. Wang",
+          "issueEs": "Medicina Interna · Hinchazón",
+          "issueVi": "Nội khoa · Đầy hơi",
+          "quoteEs": "Tenía hinchazón crónica y mala digestión que la medicina occidental no pudo resolver. La fórmula del Dr. Ruan hizo una verdadera diferencia.",
+          "quoteVi": "Tôi bị đầy hơi và tiêu hóa kém kéo dài mà Tây y không chữa được. Bài thuốc của bác sĩ Ruan đã tạo ra sự khác biệt thực sự."
+        },
+        {
+          "issueZh": "皮肤科．湿疹",
+          "issueEn": "Dermatology · Eczema",
+          "quoteZh": "手部湿疹反复发作好几年，擦类固醇只能暂时缓解，内服调理后皮肤稳定很多。",
+          "quoteEn": "My hand eczema flared up for years — steroid cream only helped temporarily. Internal treatment finally calmed my skin down.",
+          "name": "李小姐 / Ms. Lee",
+          "issueEs": "Dermatología · Eccema",
+          "issueVi": "Da liễu · Chàm",
+          "quoteEs": "El eccema en mis manos brotaba desde hacía años; la crema de esteroides solo ayudaba temporalmente. El tratamiento interno finalmente calmó mi piel.",
+          "quoteVi": "Bệnh chàm ở tay tôi tái phát nhiều năm — kem steroid chỉ giúp tạm thời. Điều trị từ bên trong cuối cùng đã làm dịu da tôi."
+        },
+        {
+          "issueZh": "男科．体虚疲劳",
+          "issueEn": "Men's Health · Fatigue",
+          "quoteZh": "长期工作压力大，容易疲倦，调理后精神体力都恢复不少。",
+          "quoteEn": "Years of work stress left me constantly exhausted. After treatment, my energy and stamina came back.",
+          "name": "张先生 / Mr. Zhang",
+          "issueEs": "Salud Masculina · Fatiga",
+          "issueVi": "Nam khoa · Mệt mỏi",
+          "quoteEs": "Años de estrés laboral me dejaron constantemente agotado. Después del tratamiento, recuperé mucha energía y resistencia.",
+          "quoteVi": "Nhiều năm căng thẳng công việc khiến tôi luôn kiệt sức. Sau điều trị, năng lượng và sức bền của tôi đã trở lại."
+        },
+        {
+          "issueZh": "妇科．备孕调理",
+          "issueEn": "Gynecology · Fertility Support",
+          "quoteZh": "备孕一年多都没有消息，经过阮医师调理身体后，顺利怀孕了。",
+          "quoteEn": "We'd been trying to conceive for over a year with no luck. After Dr. Ruan's care, we finally got pregnant.",
+          "name": "吴太太 / Mrs. Wu",
+          "issueEs": "Ginecología · Apoyo a la Fertilidad",
+          "issueVi": "Phụ khoa · Hỗ trợ sinh sản",
+          "quoteEs": "Llevábamos más de un año intentando concebir sin éxito. Después del cuidado del Dr. Ruan, finalmente quedé embarazada.",
+          "quoteVi": "Chúng tôi cố gắng có con hơn một năm mà không thành công. Sau khi được bác sĩ Ruan điều trị, cuối cùng tôi đã mang thai."
+        },
+        {
+          "issueZh": "内科．失眠压力",
+          "issueEn": "Internal Medicine · Insomnia",
+          "quoteZh": "长期失眠让我白天精神很差，吃药调理后终于能一觉到天亮。",
+          "quoteEn": "Chronic insomnia left me exhausted every day. After treatment, I can finally sleep through the night.",
+          "name": "周小姐 / Ms. Chou",
+          "issueEs": "Medicina Interna · Insomnio",
+          "issueVi": "Nội khoa · Mất ngủ",
+          "quoteEs": "El insomnio crónico me dejaba agotada todos los días. Después del tratamiento, finalmente puedo dormir toda la noche.",
+          "quoteVi": "Mất ngủ kéo dài khiến tôi kiệt sức mỗi ngày. Sau điều trị, tôi cuối cùng đã có thể ngủ suốt đêm."
+        },
+        {
+          "issueZh": "儿科．肠胃挑食",
+          "issueEn": "Pediatrics · Picky Eating",
+          "quoteZh": "女儿挑食又常常肚子痛，调理肠胃后食欲变好，也很少喊肚子不舒服了。",
+          "quoteEn": "My daughter was a picky eater with frequent stomachaches. After treatment, her appetite improved and the pain rarely comes back.",
+          "name": "徐太太 / Mrs. Hsu",
+          "issueEs": "Pediatría · Selectividad Alimentaria",
+          "issueVi": "Nhi khoa · Kén ăn",
+          "quoteEs": "Mi hija era muy selectiva con la comida y a menudo tenía dolores de estómago. Después del tratamiento, su apetito mejoró y rara vez vuelve el dolor.",
+          "quoteVi": "Con gái tôi kén ăn và hay đau bụng. Sau điều trị, cháu ăn ngon miệng hơn và ít khi bị đau bụng lại."
+        },
+        {
+          "issueZh": "皮肤科．反复痤疮",
+          "issueEn": "Dermatology · Recurring Acne",
+          "quoteZh": "脸部痘痘反复长了好几年，内调配合作息调整后，皮肤改善很多。",
+          "quoteEn": "I struggled with recurring acne for years. Combining internal treatment with lifestyle changes made a big improvement.",
+          "name": "江小姐 / Ms. Chiang",
+          "issueEs": "Dermatología · Acné Recurrente",
+          "issueVi": "Da liễu · Mụn tái phát",
+          "quoteEs": "Luché contra el acné recurrente durante años. Combinar el tratamiento interno con cambios en el estilo de vida logró una gran mejora.",
+          "quoteVi": "Tôi bị mụn tái phát nhiều năm. Kết hợp điều trị bên trong với thay đổi lối sống đã mang lại cải thiện đáng kể."
+        }
+      ],
+      "items": {
+        "type": "object",
+        "properties": {
+          "issueZh": {
+            "type": "string"
+          },
+          "issueEn": {
+            "type": "string"
+          },
+          "issueEs": {
+            "type": "string"
+          },
+          "issueVi": {
+            "type": "string"
+          },
+          "quoteZh": {
+            "type": "string"
+          },
+          "quoteEn": {
+            "type": "string"
+          },
+          "quoteEs": {
+            "type": "string"
+          },
+          "quoteVi": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "editorScript": "file:./edit.js",
+  "render": "file:./render.php"
+}

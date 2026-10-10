@@ -1,0 +1,64 @@
+{
+  "apiVersion": 2,
+  "name": "dr-ruan/cta-banner",
+  "title": "Dr. Ruan: CTA Banner",
+  "category": "dr-ruan",
+  "icon": "megaphone",
+  "description": "The red call-to-action banner.",
+  "attributes": {
+    "headingZh": {
+      "type": "string",
+      "default": "准备好重新找回平衡了吗？"
+    },
+    "headingEn": {
+      "type": "string",
+      "default": "Ready to feel like yourself again?"
+    },
+    "headingEs": {
+      "type": "string",
+      "default": "¿Listo para volver a sentirse usted mismo?"
+    },
+    "headingVi": {
+      "type": "string",
+      "default": "Bạn đã sẵn sàng tìm lại sự cân bằng?"
+    },
+    "bodyZh": {
+      "type": "string",
+      "default": "初诊包含完整脉诊与舌诊，并依您的体质量身开方。"
+    },
+    "bodyEn": {
+      "type": "string",
+      "default": "New patient visits include a full pulse and tongue consultation and a formula tailored to you."
+    },
+    "bodyEs": {
+      "type": "string",
+      "default": "Las consultas de nuevos pacientes incluyen un diagnóstico completo de pulso y lengua, además de una fórmula hecha a su medida."
+    },
+    "bodyVi": {
+      "type": "string",
+      "default": "Buổi khám đầu tiên bao gồm bắt mạch, xem lưỡi đầy đủ và một bài thuốc được kê riêng cho bạn."
+    },
+    "buttonTextZh": {
+      "type": "string",
+      "default": "平台预约"
+    },
+    "buttonTextEn": {
+      "type": "string",
+      "default": "Book via Platform"
+    },
+    "buttonTextEs": {
+      "type": "string",
+      "default": "Reservar en la Plataforma"
+    },
+    "buttonTextVi": {
+      "type": "string",
+      "default": "Đặt lịch qua nền tảng"
+    },
+    "buttonUrl": {
+      "type": "string",
+      "default": "https://book.ruantcm.com"
+    }
+  },
+  "editorScript": "file:./edit.js",
+  "render": "file:./render.php"
+}

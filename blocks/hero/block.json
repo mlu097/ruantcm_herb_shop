@@ -1,0 +1,92 @@
+{
+  "apiVersion": 2,
+  "name": "dr-ruan/hero",
+  "title": "Dr. Ruan: Hero",
+  "category": "dr-ruan",
+  "icon": "megaphone",
+  "description": "The homepage hero: eyebrow specialties line, title, lead paragraph, and two buttons.",
+  "attributes": {
+    "titleZh": {
+      "type": "string",
+      "default": "阮氏中医"
+    },
+    "accentZh": {
+      "type": "string",
+      "default": "本草世家"
+    },
+    "eyebrowZh": {
+      "type": "string",
+      "default": "内科．儿科．妇科．男科．皮肤科"
+    },
+    "eyebrowEn": {
+      "type": "string",
+      "default": "Internal Medicine · Pediatrics · Gynecology · Men's Health · Dermatology"
+    },
+    "eyebrowEs": {
+      "type": "string",
+      "default": "Medicina Interna · Pediatría · Ginecología · Salud Masculina · Dermatología"
+    },
+    "eyebrowVi": {
+      "type": "string",
+      "default": "Nội khoa · Nhi khoa · Phụ khoa · Nam khoa · Da liễu"
+    },
+    "leadZh": {
+      "type": "string",
+      "default": "阮斌医师拥有三十多年中医临床经验，专精内科、儿科、妇科、男科及皮肤科，依个人体质量身开方。"
+    },
+    "leadEn": {
+      "type": "string",
+      "default": "Dr. Ruan Bin brings over 30 years of clinical experience treating patients across internal medicine, pediatrics, gynecology, men's health, and dermatology — with formulas tailored to the person, not the diagnosis."
+    },
+    "leadEs": {
+      "type": "string",
+      "default": "El Dr. Ruan Bin cuenta con más de 30 años de experiencia clínica tratando pacientes en medicina interna, pediatría, ginecología, salud masculina y dermatología, con fórmulas hechas a la medida de cada persona, no del diagnóstico."
+    },
+    "leadVi": {
+      "type": "string",
+      "default": "Bác sĩ Ruan Bin có hơn 30 năm kinh nghiệm lâm sàng điều trị bệnh nhân về nội khoa, nhi khoa, phụ khoa, nam khoa và da liễu — với các bài thuốc được điều chỉnh riêng cho từng người, không chỉ dựa trên chẩn đoán."
+    },
+    "cta1TextZh": {
+      "type": "string",
+      "default": "平台预约"
+    },
+    "cta1TextEn": {
+      "type": "string",
+      "default": "Book via Platform"
+    },
+    "cta1TextEs": {
+      "type": "string",
+      "default": "Reservar en la Plataforma"
+    },
+    "cta1TextVi": {
+      "type": "string",
+      "default": "Đặt lịch qua nền tảng"
+    },
+    "cta1Url": {
+      "type": "string",
+      "default": "https://book.ruantcm.com"
+    },
+    "cta2TextZh": {
+      "type": "string",
+      "default": "了解理念"
+    },
+    "cta2TextEn": {
+      "type": "string",
+      "default": "Our Approach"
+    },
+    "cta2TextEs": {
+      "type": "string",
+      "default": "Nuestro Enfoque"
+    },
+    "cta2TextVi": {
+      "type": "string",
+      "default": "Phương pháp của chúng tôi"
+    },
+    "cta2Url": {
+      "type": "string",
+      "default": "#approach"
+    }
+  },
+  "editorScript": "file:./edit.js",
+  "render": "file:./render.php"
+}
